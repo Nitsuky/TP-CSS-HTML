@@ -1,31 +1,76 @@
 <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>LEGO Webstore</title>
+</head>
 
+<body>
 <html>
 
-LEGO WebStore
+<h1>LEGO WebStore</h1>
 
-Produit
-Acheter
+<hr>
+<ul>
+    <li><a href="produit.html">Produit</a></li>
+    <li><a href="acheter.html">Acheter</a></li>
+</ul>
+<hr>
 
-Acheter des LEGO
+<h2>Acheter des LEGO</h2>
 
-Remplissez le formulaire ci-dessous pour commander des LEGO !
+<p>Remplissez le formulaire ci-dessous pour commander des <a href="https://www.lego.com/fr-fr" target="_blank">LEGO </a>!</p>
 
-Informations personnelles
-Civilité: M. Mme.
-Nom:
-Prénom:
-Mail:
+<h3>Informations personnelles</h3>
+<form>
 
-Informations de livraison
-Quantité commandée: 1 boîte 2 boîtes 3 boîtes 4 boîtes 5 boîtes
-Adresse de livraison:
+    <h4>Civilité:</h4>
+    <div>
+        <input type="radio">M.</input> <input type="radio">Mme.</input>
+    </div>
+    <div>
+        Nom :<input type="text">
+    </div>
+    <div>
+        Prénom:<input type="text">
+    </div>
+    <div>
+        Mail:<input type="text">
+    </div>
+</form>
+<h3>Informations de livraison</h3>
+<form>
+    <div>
+        <label>Quantité commandée:</label>
+        <select>
+            <option>1 boîte</option>
+            <option>2 boîtes</option>
+            <option>3 boîtes</option>
+            <option>4 boîtes</option>
+            <option>5 boîtes</option>
+        </select>
+    </div>
+    Adresse de livraison:
+    <div>
+        <input type="text">
+    </div>
+</form>
+<h3>Confirmation</h3>
+<form>
+    <div>
+        <input type="checkbox">J'ai relu ma commande et certifie que ces informations sont correctes.
+    </div>
+    <div>
+        <input type="submit" value="Confirmer la commande">
+    </div>
+</form>
 
-Confirmation
-J'ai relu ma commande et certifie que ces informations sont correctes.
-
-Retour en haut de page
-TP1 : Découverte de HTML et CSS
-L2 Développement Web - 2018
+</body>
+<hr>
+<footer>
+    <a href="#top">Retour en haut de page</a>
+    <p>TP1 : Découverte de HTML et CSS</p>
+    <p>L2 Développement Web - 2018</p>
+</footer>
 
 </html>
